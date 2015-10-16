@@ -10,6 +10,9 @@ module.exports = {
         filename: "[name].bundle.js",
         chunkFilename: "[id].chunk.js"
     },
+    resolve: {
+      extensions: ["", ".webpack.js", ".web.js", ".js", ".ts"]
+    },
     module: {
       loaders: [
         { test: /\.ts$/, loader: 'ts-loader' }

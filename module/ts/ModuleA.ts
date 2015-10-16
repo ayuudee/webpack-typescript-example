@@ -1,4 +1,4 @@
-import ServiceA = require("../../service/ts/ServiceA.ts");
+import ServiceA = require("../../service/ts/ServiceA");
 
 class ModuleA {
 
