@@ -1,0 +1,8 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^1.6.2"
+  }
+}
